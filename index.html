@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-green-100 w-full h-full flex flex-col justify-center items-center">
+
+  <main class="md:w-6/12 lg:w-6/12 lg:p-8 bg-white rounded-2xl lg:my-8 md:my-8 xl:w-6/12 sm:w-full" >
+    <div class="w-full">
+      <img src="./assets/images/image-omelette.jpeg" alt="omelette image" class="sm:w-full rounded-lg"/>
+    </div>
+    <div class="m-8">
+      <h1 class="text-3xl text-left mb-4 font-bold" > Simple Omelette Recipe</h1>
+      <p class="text-sm text-left leading-relaxed">  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+        to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+      </p>
+    </div>
+
+    <div class="preparation-time m-8 p-4 bg-cyan-100 rounded-md">
+      <h2 class="text-xl text-left mb-4 font-bold">Preparation Time</h2>
+      <ul class="list-disc list-inside text-sm">
+        <li>
+          <strong class="text-red-600">Total:</strong> Approximately 10 minutes
+        </li>
+        <li>
+          <strong class="text-red-600">Preparation:</strong> 5 minutes
+        </li>
+        <li>
+          <strong class="text-red-600">Cooking:</strong> 5 minutes
+        </li>
+      </ul>
+    </div>
+    <div class="ingredients m-8">
+      <h2 class="text-2xl text-left mb-4 font-bold text-red-500">Ingredients</h2>
+      <ul class="list-disc list-outside text-sm ml-4">
+        <li class="text-left">
+          2-3 large eggs
+        </li>
+        <li class="text-left">
+          Salt, to taste
+        </li>
+        <li class="text-left">
+          Pepper, to taste
+        </li>
+        <li class="text-left">
+          1 tablespoon of butter or oil
+        </li>
+        <li class="text-left">
+          <span>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span>
+        </li>
+      </ul>
+    </div>
+    <div class="divider w-100vw m-8 h-px bg-gray-400">
+    </div>
+    
+    <div class="instruction-div m-8">
+      <h2 class="text-2xl text-left mb-4 font-bold text-red-500">Instructions</h2>
+      <ol class="list-decimal m-4 leading-loose text-sm">
+        <li>
+          Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+  You can add a tablespoon of water or milk for a fluffier texture.
+        </li>
+        <li>
+          Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+        </li>
+        <li>
+          Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+          the eggs evenly coat the surface.
+        </li>
+        <li>
+          Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+          middle, sprinkle your chosen fillings over one half of the omelette.
+        </li>
+        <li>
+          Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+          fillings. Let it cook for another minute, then slide it onto a plate.
+        </li>
+        <li>
+          Enjoy: Serve hot, with additional salt and pepper if needed.
+        </li>
+      </ol>
+    </div>
+    <div class="divider w-100vw m-8 h-px bg-gray-400">
+    </div>
+    <div class="nutrition-div m-8">
+      <h2 class="text-2xl text-left mb-4 font-bold text-red-500">Nutrition</h2>
+      <p class="mb-8 text-sm">
+        The table below shows nutritional values per serving without the additional fillings.
+      </p>
+      <table class="w-full text-center text-sm">
+        <tr class="h-10 border-b-2">
+          <td>
+            Calories
+          </td>
+          <td class="text-red-600 font-bold">
+            277kcal
+          </td>
+        </tr>
+        <tr class="h-10 border-b-2">
+          <td>
+            Carbs
+          </td>
+          <td class="text-red-600 font-bold">
+            0g
+          </td>
+        </tr>
+        <tr class="h-10 border-b-2">
+          <td>
+            Protein
+          </td>
+          <td class="text-red-600 font-bold">
+            20g
+          </td>
+        </tr>
+        <tr class="h-10">
+          <td>
+            Fat
+          </td>
+          <td class="text-red-600 font-bold">
+            22g
+          </td>
+        </tr>
+      </table>
+    </div>
+  
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/MyatThihaNaing-mthn">Myat Thiha Naing</a>.
+  </div>
+</body>
+</html>
